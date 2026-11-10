@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108"
+    width="108"
+    height="108"
+    viewportWidth="108"
+    viewportHeight="108">
+
+    <!-- Radio Waves -->
+    <path
+        d="M 20,46 C 16,51 16,57 20,62"
+        stroke="#FFFFFF"
+        stroke-width="2.8"
+        stroke-linecap="round"
+        fill="#00000000" />
+
+    <path
+        d="M 88,46 C 92,51 92,57 88,62"
+        stroke="#FFFFFF"
+        stroke-width="2.8"
+        stroke-linecap="round"
+        fill="#00000000" />
+
+    <!-- Shield Outline -->
+    <path
+        d="M 54,23 L 32,25 C 28,25.5 26,28 26,32 L 26,52 C 26,67 38,79 54,87 C 70,79 82,67 82,52 L 82,32 C 82,28 80,25.5 76,25 Z"
+        fill="#00000000"
+        stroke="#FFFFFF"
+        stroke-width="3.0"
+        stroke-linejoin="round" />
+
+    <!-- Mesh Network Links -->
+    <path
+        d="M 37,34 L 71,34 M 37,34 L 54,75 M 71,34 L 54,75"
+        stroke="#FFFFFF"
+        stroke-width="2.4"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="#00000000" />
+
+    <!-- Solid Medical Cross -->
+    <path
+        d="M 48,40 L 60,40 L 60,46 L 66,46 L 66,58 L 60,58 L 60,64 L 48,64 L 48,58 L 42,58 L 42,46 L 48,46 Z"
+        fill="#FFFFFF" />
+
+    <!-- Central Star Cutout / Negative Space -->
+    <path
+        d="M 54,49 L 55.5,52.2 L 59,52.4 L 56.4,54.6 L 57.2,58 L 54,56.1 L 50.8,58 L 51.6,54.6 L 49,52.4 L 52.5,52.2 Z"
+        fill="#000000" />
+
+    <!-- Three Connected Mesh Network Nodes -->
+    <path
+        d="M 37,29.8 A 4.2,4.2 0 1,0 37,38.2 A 4.2,4.2 0 1,0 37,29.8"
+        fill="#FFFFFF" />
+
+    <path
+        d="M 71,29.8 A 4.2,4.2 0 1,0 71,38.2 A 4.2,4.2 0 1,0 71,29.8"
+        fill="#FFFFFF" />
+
+    <path
+        d="M 54,70.8 A 4.2,4.2 0 1,0 54,79.2 A 4.2,4.2 0 1,0 54,70.8"
+        fill="#FFFFFF" />
+
+</vector>

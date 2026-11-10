@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - RELAY Emergency Coordination</title>
+    <style>
+        :root {
+            --bg-color: #0b1120;
+            --card-bg: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent-cyan: #38bdf8;
+            --accent-green: #10b981;
+            --border-color: #334155;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+        }
+        .logo-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #0284c7, #0369a1);
+            color: white;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-weight: 800;
+            letter-spacing: 1.5px;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 800;
+            margin: 0 0 10px 0;
+            color: var(--text-primary);
+        }
+        .effective-date {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+        h2 {
+            font-size: 20px;
+            color: var(--accent-cyan);
+            margin-top: 0;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        p, li {
+            color: var(--text-secondary);
+            font-size: 15px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        strong {
+            color: var(--text-primary);
+        }
+        .highlight-box {
+            background-color: rgba(16, 185, 129, 0.1);
+            border: 1px solid var(--accent-green);
+            border-radius: 8px;
+            padding: 16px;
+            margin: 20px 0;
+        }
+        .highlight-box p {
+            color: #d1fae5;
+            margin: 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            font-size: 13px;
+        }
+        a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-badge">RELAY EMERGENCY</div>
+            <h1>Privacy Policy</h1>
+            <div class="effective-date">Last Updated & Effective: November 6, 2026</div>
+        </header>
+
+        <div class="highlight-box">
+            <p><strong>Summary:</strong> RELAY is an offline-first, decentralized peer-to-peer (P2P) emergency coordination application. <strong>We do not operate central cloud servers, we do not track your identity, and we never collect, monetize, or sell your personal or location data.</strong> All data stays on your local device and is relayed strictly to nearby physical devices via direct radio waves (Bluetooth Low Energy & Wi-Fi Direct).</p>
+        </div>
+
+        <div class="card">
+            <h2>1. Information We Access and How It Is Used</h2>
+            <p>RELAY operates exclusively during emergency, disaster, and offline network blackout scenarios. The application accesses the following hardware capabilities:</p>
+            <ul>
+                <li><strong>Location Information (ACCESS_FINE_LOCATION & ACCESS_COARSE_LOCATION):</strong>
+                    <ul>
+                        <li><strong>Radio Discovery:</strong> Required by the Android operating system to scan for nearby peer devices using Bluetooth Low Energy (BLE) and Wi-Fi Direct. RELAY does not track your movements or log your location history.</li>
+                        <li><strong>Emergency Triage Coordinates:</strong> When you author an emergency distress beacon, you may attach direct satellite GPS coordinates to help rescue teams locate survivors. These coordinates are broadcast only to nearby physical radios in range and are never uploaded to a cloud server.</li>
+                    </ul>
+                </li>
+                <li><strong>Nearby Devices & Bluetooth (BLUETOOTH_SCAN, BLUETOOTH_CONNECT, BLUETOOTH_ADVERTISE, NEARBY_WIFI_DEVICES):</strong> Used strictly for physical peer-to-peer radio discovery and multi-hop delay-tolerant mesh transmission.</li>
+                <li><strong>Foreground Service (FOREGROUND_SERVICE_CONNECTED_DEVICE):</strong> Enables the continuous reception and forwarding of emergency distress signals and delivery acknowledgements even when the device screen is off.</li>
+                <li><strong>Internal Device Storage:</strong> Stores emergency requests, responder verification registries, and configuration preferences locally using Android internal storage.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>2. Cryptographic Security & End-to-End Encryption</h2>
+            <p>All emergency communications within RELAY are protected by advanced cryptographic standards:</p>
+            <ul>
+                <li><strong>Identity Protection:</strong> Digital signatures are generated using hardware-backed Ed25519 keys isolated in your device's Android Keystore (StrongBox Keymaster / Trusted Execution Environment).</li>
+                <li><strong>Confidential Medical Notes:</strong> Sensitive medical and casualty details are end-to-end encrypted using Curve25519/X25519 key agreement and AES-256-GCM. Intermediate relay devices forward packets without the cryptographic ability to read confidential health information.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>3. Third-Party Services and Data Sharing</h2>
+            <p>RELAY contains <strong>no advertising SDKs, no behavioral trackers, no telemetry probes, and no third-party analytics</strong>. We do not transmit data to Google, commercial aggregators, or remote cloud servers.</p>
+            <p>Emergency beacons are transmitted over unencrypted or encrypted local radio frequencies (Bluetooth and Wi-Fi Direct) to other smartphones running RELAY within physical radio range (~100 meters per hop).</p>
+        </div>
+
+        <div class="card">
+            <h2>4. Data Retention and Deletion</h2>
+            <p>All stored requests and messages are subject to an automatic <strong>7-day Time-To-Live (TTL) retention policy</strong>, after which expired data is permanently deleted from your device. You can also permanently wipe all stored requests, messages, and identities at any time by tapping <strong>"Clear All Local Data"</strong> in the Profile screen.</p>
+        </div>
+
+        <div class="card">
+            <h2>5. Children's Privacy</h2>
+            <p>RELAY is an emergency response tool and does not knowingly collect personally identifiable information from children under 13. Any emergency beacon generated locally is used solely for search, rescue, and safety coordination.</p>
+        </div>
+
+        <div class="card">
+            <h2>6. Contact Information</h2>
+            <p>If you have any questions, feedback, or concerns regarding this Privacy Policy or RELAY's security practices, please contact the development team at:</p>
+            <p><strong>Email:</strong> <a href="mailto:support@relay-emergency.org">support@relay-emergency.org</a><br>
+            <strong>Project Repository:</strong> RELAY Emergency Coordination Platform</p>
+        </div>
+
+        <footer>
+            &copy; 2026 RELAY Emergency Coordination. All rights reserved. Open, decentralized disaster resilience.
+        </footer>
+    </div>
+</body>
+</html>
+

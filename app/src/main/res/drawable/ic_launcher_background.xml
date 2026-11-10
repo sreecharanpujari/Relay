@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Deep Command Navy Core Background -->
+    <path
+        android:fillColor="#101B2B"
+        android:pathData="M 0,0 H 108 V 108 H 0 Z" />
+
+    <!-- Outer P2P Radio Radar Discovery Rings (Subtle Blue-Navy) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#192A40"
+        android:strokeWidth="1.2"
+        android:pathData="M 54,16 A 38,38 0 1,0 54,92 A 38,38 0 1,0 54,16" />
+
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#142236"
+        android:strokeWidth="1.0"
+        android:pathData="M 54,26 A 28,28 0 1,0 54,82 A 28,28 0 1,0 54,26" />
+
+    <!-- Subtle Diagonal Mesh Grid Accent -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#162538"
+        android:strokeWidth="0.8"
+        android:pathData="M 22,22 L 86,86 M 86,22 L 22,86" />
+
+    <!-- Cardinal Graticule Ticks -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#20C9B0"
+        android:strokeWidth="1.0"
+        android:strokeAlpha="0.3"
+        android:pathData="M 54,12 L 54,16 M 54,92 L 54,96 M 12,54 L 16,54 M 92,54 L 96,54" />
+
+</vector>

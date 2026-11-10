@@ -1,0 +1,30 @@
+*.iml
+.gradle
+.kotlin/
+/local.properties
+local.properties
+.DS_Store
+
+# Android Studio & IntelliJ IDEA
+/.idea/
+.idea
+
+# Build outputs
+/build
+*/build/
+app/build/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Keystores & sensitive signing files
+*.keystore
+*.jks
+signing.properties
+
+# Temporary & native build files
+/captures
+.externalNativeBuild
+.cxx
+scratch/

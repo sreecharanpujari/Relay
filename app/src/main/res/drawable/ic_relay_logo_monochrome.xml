@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Radio Waves -->
+    <path
+        android:pathData="M 20,46 C 16,51 16,57 20,62"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <path
+        android:pathData="M 88,46 C 92,51 92,57 88,62"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Shield Outline -->
+    <path
+        android:pathData="M 54,23 L 32,25 C 28,25.5 26,28 26,32 L 26,52 C 26,67 38,79 54,87 C 70,79 82,67 82,52 L 82,32 C 82,28 80,25.5 76,25 Z"
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.0"
+        android:strokeLineJoin="round" />
+
+    <!-- Mesh Network Links -->
+    <path
+        android:pathData="M 37,34 L 71,34 M 37,34 L 54,75 M 71,34 L 54,75"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+
+    <!-- Solid Medical Cross -->
+    <path
+        android:pathData="M 48,40 L 60,40 L 60,46 L 66,46 L 66,58 L 60,58 L 60,64 L 48,64 L 48,58 L 42,58 L 42,46 L 48,46 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Central Star Cutout / Negative Space -->
+    <path
+        android:pathData="M 54,49 L 55.5,52.2 L 59,52.4 L 56.4,54.6 L 57.2,58 L 54,56.1 L 50.8,58 L 51.6,54.6 L 49,52.4 L 52.5,52.2 Z"
+        android:fillColor="#000000" />
+
+    <!-- Three Connected Mesh Network Nodes -->
+    <path
+        android:pathData="M 37,29.8 A 4.2,4.2 0 1,0 37,38.2 A 4.2,4.2 0 1,0 37,29.8"
+        android:fillColor="#FFFFFF" />
+
+    <path
+        android:pathData="M 71,29.8 A 4.2,4.2 0 1,0 71,38.2 A 4.2,4.2 0 1,0 71,29.8"
+        android:fillColor="#FFFFFF" />
+
+    <path
+        android:pathData="M 54,70.8 A 4.2,4.2 0 1,0 54,79.2 A 4.2,4.2 0 1,0 54,70.8"
+        android:fillColor="#FFFFFF" />
+
+</vector>

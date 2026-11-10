@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 70" width="280" height="70">
+  <!-- Brand Mark (The Connected Shield) Scaled to 56x56 -->
+  <g transform="translate(6, 7) scale(0.518)">
+    <!-- Radio Waves -->
+    <path d="M 20,46 C 16,51 16,57 20,62" fill="none" stroke="#20C9B0" stroke-width="3" stroke-linecap="round" opacity="0.85" />
+    <path d="M 88,46 C 92,51 92,57 88,62" fill="none" stroke="#20C9B0" stroke-width="3" stroke-linecap="round" opacity="0.85" />
+
+    <!-- Shield Fill & Border -->
+    <path d="M 54,23 L 32,25 C 28,25.5 26,28 26,32 L 26,52 C 26,67 38,79 54,87 C 70,79 82,67 82,52 L 82,32 C 82,28 80,25.5 76,25 Z"
+          fill="#101B2B" stroke="#20C9B0" stroke-width="3.2" stroke-linejoin="round" />
+
+    <!-- Mesh Links -->
+    <path d="M 37,34 L 71,34 M 37,34 L 54,75 M 71,34 L 54,75"
+          fill="none" stroke="#20C9B0" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+
+    <!-- Medical Cross -->
+    <path d="M 48,40 L 60,40 L 60,46 L 66,46 L 66,58 L 60,58 L 60,64 L 48,64 L 48,58 L 42,58 L 42,46 L 48,46 Z"
+          fill="#E96D42" stroke="#FFFFFF" stroke-width="1.2" stroke-linejoin="round" />
+
+    <!-- 3 Nodes -->
+    <circle cx="37" cy="34" r="4.4" fill="#20C9B0" />
+    <circle cx="37" cy="34" r="1.8" fill="#FFFFFF" />
+    <circle cx="71" cy="34" r="4.4" fill="#20C9B0" />
+    <circle cx="71" cy="34" r="1.8" fill="#FFFFFF" />
+    <circle cx="54" cy="75" r="4.4" fill="#20C9B0" />
+    <circle cx="54" cy="75" r="1.8" fill="#FFFFFF" />
+  </g>
+
+  <!-- Typography "RELAY" (Crisp Geometric Sans Vector Letterforms) -->
+  <g fill="#FFFFFF">
+    <!-- R -->
+    <path d="M 72,20 L 89,20 C 94,20 97,23 97,27.5 C 97,31.5 94,34.5 89,34.5 L 83,34.5 L 94,46 L 87.5,46 L 77.5,35 L 77.5,46 L 72,46 Z M 77.5,25 L 77.5,30 L 87,30 C 89.5,30 91.2,29 91.2,27.5 C 91.2,26 89.5,25 87,25 Z" />
+
+    <!-- E -->
+    <path d="M 103,20 L 122,20 L 122,25 L 109,25 L 109,30.5 L 120,30.5 L 120,35.5 L 109,35.5 L 109,41 L 122.5,41 L 122.5,46 L 103,46 Z" />
+
+    <!-- L -->
+    <path d="M 130,20 L 135.5,20 L 135.5,41 L 148,41 L 148,46 L 130,46 Z" />
+
+    <!-- A -->
+    <path d="M 164,20 L 176,46 L 169.8,46 L 167.2,40 L 160.8,40 L 158.2,46 L 152,46 Z M 164,26.5 L 162.2,35 L 165.8,35 Z" />
+
+    <!-- Y -->
+    <path d="M 181,20 L 187.5,20 L 192.5,29.5 L 197.5,20 L 204,20 L 195.5,33.5 L 195.5,46 L 189.5,46 L 189.5,33.5 Z" />
+  </g>
+
+  <!-- Connected Signal Accent (Teal Line + Emergency Orange Beacon Node) -->
+  <line x1="72" y1="52" x2="204" y2="52" stroke="#20C9B0" stroke-width="2" stroke-linecap="round" />
+  <circle cx="211" cy="52" r="3.2" fill="#E96D42" />
+
+  <!-- Subtitle Tagline: "OFFLINE EMERGENCY COORDINATION" -->
+  <text x="73" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="7.5" font-weight="700" letter-spacing="1.5" fill="#CBD5E1">OFFLINE EMERGENCY COORDINATION</text>
+</svg>
